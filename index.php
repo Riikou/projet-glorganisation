@@ -18,34 +18,171 @@
         <!-- LIEN BOOTSTRAP -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+        <!-- REFERENCE CSS -->
+        <link type="text/css" rel="stylesheet" href="styles/home_style.css">
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet"> 
     </head>
     <body>
         <!-- LE CAROUSEL -->
         <div class="carousel slide" id="carousel" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carousel" data-slide-to="0"></li>
-                <li data-target="#carousel" data-slide-to="1"></li>
-                <li data-target="#carousel" data-slide-to="2"></li>
-            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/%C2%A9AnthonyGhnassia-31-1920x768.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/IMG_9712-1920x768.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/AnthonyGhnassia-122-1920x768.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Précédent</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Suivant</span>
+            </a>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="" class="d-block w-100" alt="...">
-            </div>
+        <div class="container" id="text">
+            <p>GL Organisation is the market leader of live show representation in France. We act as the exclusive international agent for live shows.</p>
         </div>
-        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Précédent</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Suivant</span>
-        </a>
+        <section id="affiche">
+            <h2>SOME OF THE SHOWS WE REPRESENT</h2>
+            <div class="grey-divider"></div>
+            <div class="container">
+                <div class="row">
+                    <!-- 0 à 5 -->
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                        <a href="#">
+                            <img src="images/AFFICHE-GAUTIER-267x360.jpg">
+                            <div class="overlay">
+                                <h3>Read More</h3>
+                                <div class="red-divider"></div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                        <a href="#">
+                            <img src="images/AFFICHE-GAUTIER-267x360.jpg">
+                            <div class="overlay">
+                                <h3>Read More</h3>
+                                <div class="red-divider"></div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                        <a href="#">
+                            <img src="images/AFFICHE-GAUTIER-267x360.jpg">
+                            <div class="overlay">
+                                <h3>Read More</h3>
+                                <div class="red-divider"></div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                        <a href="#">
+                            <img src="images/AFFICHE-GAUTIER-267x360.jpg">
+                            <div class="overlay">
+                                <h3>Read More</h3>
+                                <div class="red-divider"></div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                        <a href="#">
+                            <img src="images/AFFICHE-GAUTIER-267x360.jpg">
+                            <div class="overlay">
+                                <h3>Read More</h3>
+                                <div class="red-divider"></div>
+                            </div>
+                        </a>
+                    </article>
+                    <!-- 6 à 10 -->
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                        <a href="#">
+                            <img src="images/AFFICHE-GAUTIER-267x360.jpg">
+                            <div class="overlay">
+                                <h3>Read More</h3>
+                                <div class="red-divider"></div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                        <a href="#">
+                            <img src="images/AFFICHE-GAUTIER-267x360.jpg">
+                            <div class="overlay">
+                                <h3>Read More</h3>
+                                <div class="red-divider"></div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                        <a href="#">
+                            <img src="images/AFFICHE-GAUTIER-267x360.jpg">
+                            <div class="overlay">
+                                <h3>Read More</h3>
+                                <div class="red-divider"></div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                        <a href="#">
+                            <img src="images/AFFICHE-GAUTIER-267x360.jpg">
+                            <div class="overlay">
+                                <h3>Read More</h3>
+                                <div class="red-divider"></div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                        <a href="#">
+                            <img src="images/AFFICHE-GAUTIER-267x360.jpg">
+                            <div class="overlay">
+                                <h3>Read More</h3>
+                                <div class="red-divider"></div>
+                            </div>
+                        </a>
+                    </article>
+                    <!-- 11 à 13 -->
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                        <a href="#">
+                            <img src="images/AFFICHE-GAUTIER-267x360.jpg">
+                            <div class="overlay">
+                                <h3>Read More</h3>
+                                <div class="red-divider"></div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                        <a href="#">
+                            <img src="images/AFFICHE-GAUTIER-267x360.jpg">
+                            <div class="overlay">
+                                <h3>Read More</h3>
+                                <div class="red-divider"></div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                        <a href="#">
+                            <img src="images/AFFICHE-GAUTIER-267x360.jpg">
+                            <div class="overlay">
+                                <h3>Read More</h3>
+                                <div class="red-divider"></div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <a href="#">NEWSLETTER</a>
+            <p>|</p>
+            <a href="#">TERMS &amp; CONDITIONS</a>
+            <p>|</p>
+            <p>POWERED BY <a href="#">NODEVO</a></p>
+        </footer>
     </body>
 </html>
