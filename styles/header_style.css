@@ -1,0 +1,27 @@
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.brand, nav
+{
+    display: inline;
+}
+
+ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.brand h1 span
+{
+    width: 40%;
+}
+
+.red
+{
+    color: red;
+}

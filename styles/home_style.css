@@ -1,0 +1,123 @@
+body
+{
+    background-color: #000;
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #ccc;
+}
+
+#text p
+{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.grey-divider
+{
+    width: 100px;
+    height: 2px;
+    background: #ccc;
+    margin: 0 auto;
+}
+
+.red-divider
+{
+    width: 80px;
+    height: 2px;
+    background: #bf3737;
+    margin: 0 auto;
+}
+
+#carousel
+{
+    position: relative;
+}
+#affiche h2
+{
+    font-size: 25px;
+    display: block;
+}
+
+#affiche .container
+{
+    margin-top: 20px;
+}
+
+#affiche .container .row article
+{
+    width: 19.5%;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+#affiche .container .row article a
+{
+    display: block;
+    position: relative;
+}
+
+#affiche .container .row article a img
+{
+    width: 100%;
+    max-height: 100%;
+}
+
+#affiche .container .row article a .overlay
+{
+    opacity: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    position: absolute;
+    transition-duration: 1s;
+}
+
+#affiche .container .row article a .overlay h3
+{
+    position: relative;
+    top: 80%;
+    font-size: 18px;
+    color: #fff;
+}
+
+#affiche .container .row article a .overlay .red-divider
+{
+    position: relative;
+    top: 78%;
+}
+
+#affiche .container .row article a .overlay:hover
+{
+    background-color: rgb(0,0,0);
+    opacity: 0.7;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+footer a, footer p
+{
+    display: inline-block;
+    color: #fff;
+}
+
+footer a:hover
+{
+    color: #fff;
+}
+
+@media screen and (max-width: 768px)
+{
+    #text p
+    {
+        width: 70%;
+    }
+    
+    #affiche .container .row article a .overlay .red-divider
+    {
+        top: 80%;
+    }
+}
