@@ -23,7 +23,9 @@
         <link type="text/css" rel="stylesheet" href="styles/home_style.css">
         <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet"> 
     </head>
+    
     <body>
+        <?php include("include/header.php"); ?>
         <!-- LE CAROUSEL -->
         <div class="carousel slide" id="carousel" data-ride="carousel">
             <div class="carousel-inner">
@@ -55,7 +57,8 @@
             <div class="container">
                 <div class="row">
                     <!-- 0 à 5 -->
-                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                    <article class="col-lg-1 col-xl-1 invisible"></article>
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-sm-4 col-12">
                         <a href="#">
                             <img src="images/AFFICHE-GAUTIER-267x360.jpg">
                             <div class="overlay">
@@ -64,7 +67,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-sm-4 col-12">
                         <a href="#">
                             <img src="images/AFFICHE-GAUTIER-267x360.jpg">
                             <div class="overlay">
@@ -73,7 +76,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-sm-4 col-12">
                         <a href="#">
                             <img src="images/AFFICHE-GAUTIER-267x360.jpg">
                             <div class="overlay">
@@ -82,7 +85,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-sm-4 col-12">
                         <a href="#">
                             <img src="images/AFFICHE-GAUTIER-267x360.jpg">
                             <div class="overlay">
@@ -91,7 +94,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-sm-4 col-12">
                         <a href="#">
                             <img src="images/AFFICHE-GAUTIER-267x360.jpg">
                             <div class="overlay">
@@ -100,8 +103,10 @@
                             </div>
                         </a>
                     </article>
+                    <article class="col-lg-1 col-xl-1 invisible"></article>
                     <!-- 6 à 10 -->
-                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                    <article class="col-lg-1 col-xl-1 invisible"></article>
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-sm-4 col-12">
                         <a href="#">
                             <img src="images/AFFICHE-GAUTIER-267x360.jpg">
                             <div class="overlay">
@@ -110,7 +115,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-sm-4 col-12">
                         <a href="#">
                             <img src="images/AFFICHE-GAUTIER-267x360.jpg">
                             <div class="overlay">
@@ -119,7 +124,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-sm-4 col-12">
                         <a href="#">
                             <img src="images/AFFICHE-GAUTIER-267x360.jpg">
                             <div class="overlay">
@@ -128,7 +133,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-sm-4 col-12">
                         <a href="#">
                             <img src="images/AFFICHE-GAUTIER-267x360.jpg">
                             <div class="overlay">
@@ -137,7 +142,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-sm-4 col-12">
                         <a href="#">
                             <img src="images/AFFICHE-GAUTIER-267x360.jpg">
                             <div class="overlay">
@@ -146,8 +151,10 @@
                             </div>
                         </a>
                     </article>
+                    <article class="col-lg-1 col-xl-1 invisible"></article>
                     <!-- 11 à 13 -->
-                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                    <article class="col-lg-1 col-xl-1 invisible"></article>
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-sm-4 col-12">
                         <a href="#">
                             <img src="images/AFFICHE-GAUTIER-267x360.jpg">
                             <div class="overlay">
@@ -156,7 +163,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-sm-4 col-12">
                         <a href="#">
                             <img src="images/AFFICHE-GAUTIER-267x360.jpg">
                             <div class="overlay">
@@ -165,7 +172,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="col-lg-2 col-xl-2 col-md-4 col-12">
+                    <article class="col-lg-2 col-xl-2 col-md-4 col-sm-4 col-12">
                         <a href="#">
                             <img src="images/AFFICHE-GAUTIER-267x360.jpg">
                             <div class="overlay">
@@ -174,6 +181,7 @@
                             </div>
                         </a>
                     </article>
+                    <article class="col-lg-1 col-xl-1 invisible"></article>
                 </div>
             </div>
         </section>
