@@ -11,10 +11,12 @@
     <body>
         <header>
             <div class="brand">
-                <h1>
+                <div>
                     <img src="images/logo_GL.png">
-                    <span>INTERNATIONAL AGENCY <strong class="red">FOR LIVE SHOWS</strong></span>
-                </h1>
+                </div>
+                <div>
+                    <h1>INTERNATIONAL AGENCY <strong class="red">FOR LIVE SHOWS</strong></h1>
+                </div>
             </div>
             <nav>
                 <ul>
