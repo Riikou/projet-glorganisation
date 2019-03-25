@@ -18,13 +18,15 @@
                     <h1>INTERNATIONAL AGENCY <strong class="red">FOR LIVE SHOWS</strong></h1>
                 </div>
             </div>
-            <nav>
+            <div class="nav">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><p>|</p></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><p>|</p></li>
+                    <li><a href="#">CONTACT</a></li>
                 </ul>
-            </nav>
+            </div>    
         </header>
     </body>
 </html>
