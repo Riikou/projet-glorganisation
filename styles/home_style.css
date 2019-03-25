@@ -109,7 +109,7 @@ footer a:hover
     color: #fff;
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 991px)
 {
     #text p
     {
@@ -119,5 +119,10 @@ footer a:hover
     #affiche .container .row article a .overlay .red-divider
     {
         top: 80%;
+    }
+    
+    .invisible
+    {
+        display: none;
     }
 }
