@@ -1,0 +1,46 @@
+header
+{
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    width: 100%;
+}
+
+header .brand
+{
+    display: inline-block;
+    float: left;
+}
+
+header .nav ul
+{
+    list-style: none;
+}
+
+header ul li
+{
+    display: inline-block;
+}
+
+.red
+{
+    color: red;
+}
+
+.brand div, brand nav
+{
+    float: left;
+    text-align: left;
+}
+
+.brand div img
+{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.brand div h1 strong {
+    display: block;
+}
