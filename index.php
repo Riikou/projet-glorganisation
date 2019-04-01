@@ -25,7 +25,10 @@
     </head>
     
     <body>
-        <?php include("include/header.php"); ?>
+        <?php 
+            $position = "absolute";
+            include("include/header.php"); 
+        ?>
         <!-- LE CAROUSEL -->
         <div class="carousel slide" id="carousel" data-ride="carousel">
             <div class="carousel-inner">
