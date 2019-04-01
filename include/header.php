@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="styles/header_style.css">
     </head>
     <body>
-        <header>
+        <header style="position: <?php echo $position ?>">
             <div class="brand">
                 <div>
                     <img src="images/logo_GL.png">
