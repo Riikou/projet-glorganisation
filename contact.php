@@ -1,7 +1,7 @@
 <head>
     <title>Contact - GL Organisation</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../CSS/contact_style.css">
+    <link rel="stylesheet" href="styles/style_contact.css">
     <link rel="icon" type="image/png" href="../images/logo_GL.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -11,6 +11,10 @@
 </head>
 
 <body>
+    <?php
+        $position = "relative";
+        include("include/header.php"); 
+    ?>
     <p id="contact">Contact</p><br />
     <p class="text-center" id="contact-message">For more information about GL Organisation, please complete the form below</p>
     <div class="container">
@@ -42,11 +46,12 @@
                             <label for="message">Message</label>
                             <textarea id="message" name="message" class="form-control" placeholder="Votre Message" rows="4"></textarea>
                         </div>
+                        
                         <div class="col-md-12">
                             <p><strong>* Those fields are required.</strong></p>
                         </div>
                         <div class="col-md-12 text-center">
-                            <input type="submit" class="button1" value="Submit">
+                            <input type="submit" class="button1" value="send">
                         </div>
                     </div>
                 </form>
