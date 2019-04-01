@@ -1,0 +1,10 @@
+footer a, footer p
+{
+    display: inline-block;
+    color: #fff;
+}
+
+footer a:hover
+{
+    color: #fff;
+}

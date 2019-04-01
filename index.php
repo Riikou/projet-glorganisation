@@ -185,12 +185,6 @@
                 </div>
             </div>
         </section>
-        <footer>
-            <a href="#">NEWSLETTER</a>
-            <p>|</p>
-            <a href="#">TERMS &amp; CONDITIONS</a>
-            <p>|</p>
-            <p>POWERED BY <a href="#">NODEVO</a></p>
-        </footer>
+        <?php include("include/footer.php"); ?>
     </body>
 </html>

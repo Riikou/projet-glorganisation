@@ -98,17 +98,6 @@ body
     transition-timing-function: ease;
 }
 
-footer a, footer p
-{
-    display: inline-block;
-    color: #fff;
-}
-
-footer a:hover
-{
-    color: #fff;
-}
-
 @media screen and (max-width: 991px)
 {
     #text p
