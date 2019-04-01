@@ -34,11 +34,11 @@ p
     font-family: 'Roboto', sans-serif;
     font-size:10px;
 }
-html body
+body
 {
-    background-image: url("../images/bg-about.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,1)), url("../images/bg-about.jpg");
     background-repeat: no-repeat;
-    background-color:black;
+    background-color:#000;
     background-position: center top; 
 }
 footer
@@ -129,7 +129,7 @@ ul li a:hover
 
 #contact
 {
-    text-align: center;
+    padding-left: 600px;
     text-transform: uppercase;
     font-family: 'Roboto';
     color:white;
