@@ -1,7 +1,7 @@
 <head>
     <title>Contact - GL Organisation</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../CSS/style_contact.css">
+    <link rel="stylesheet" href="../CSS/contact_style.css">
     <link rel="icon" type="image/png" href="../images/logo_GL.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
