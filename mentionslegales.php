@@ -21,7 +21,8 @@
         
         <!-- REFERENCE CSS -->
         <link type="text/css" rel="stylesheet" href="styles/mentionslegales.css">
-        <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
     <body>
         <?php
