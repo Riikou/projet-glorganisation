@@ -23,15 +23,15 @@
                 <form id="contact-form" method="post" action="" role="form">
                     <div class="row">
                         <div class="col-md-6">
-                            <label for="firstname">First Name </label>
+                            <label for="firstname">First Name* </label>
                             <input id="firstname" type="text" name="firstname" class="form-control" placeholder="Votre prénom">
                         </div>
                         <div class="col-md-6">
-                            <label for="name">Last Name *</label>
+                            <label for="name">Last Name</label>
                             <input id="name" type="text" name="name" class="form-control" placeholder="Votre Nom">
                         </div>
                         <div class="col-md-6">
-                            <label for="email">Email *</label>
+                            <label for="email">Email* </label>
                             <input id="email" type="text" name="email" class="form-control" placeholder="Votre Email">
                         </div>
                         <div class="col-md-6">
@@ -39,7 +39,7 @@
                             <input id="phone" type="tel" name="phone" class="form-control" placeholder="Votre Téléphone">
                         </div>
                         <div class="col-md-6">
-                            <label for="subject">Subject</label>
+                            <label for="subject">Subject*</label>
                             <input id="subject" type="text" name="subject" class="form-control" placeholder="Sujet de votre message">
                         </div>
                         <div class="col-md-12">
@@ -48,8 +48,10 @@
                         </div>
                         
                         <div class="col-md-12">
-                            <p><strong>* Those fields are required.</strong></p>
+                            <p><strong>* required fields
+</strong></p>
                         </div>
+                        
                         <div class="col-md-12 text-center">
                             <input type="submit" class="button1" value="send">
                         </div>
