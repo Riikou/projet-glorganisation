@@ -4,7 +4,7 @@
         <!-- TITLE -->
         <title>
             <?php
-            $title = "Mentions legales";
+            $title = "Contact";
                 echo $title;
             ?>
         </title>
