@@ -1,5 +1,42 @@
 body
 {
-    background: url(/images/bg-404.jpg);
+    background: #000;
+}
+
+#main
+{
+    background: url(../images/bg-404.jpg) no-repeat center fixed;
     color: #fff;
+    text-align: center;
+}
+
+#main h2
+{
+    margin-top: 150px;
+    font-weight: bold;  
+}
+
+#main p
+{
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+#btn-home
+{
+    margin: 100px 0px;
+    width: 30%;
+    color: #fff;
+    border-color: #fff;
+}
+
+#btn-home:hover
+{
+    border-color: #dc3545;
+}
+
+footer
+{
+    margin-top: 30px;
+    padding-bottom: 20px;
 }
