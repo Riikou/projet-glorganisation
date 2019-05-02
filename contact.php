@@ -34,22 +34,22 @@
             <p>For more information about GL Organisation, please complete the form below</p>
             <form action="contact.php" method="post">
                 <div class="form-row">
-                    <div class="col">
+                    <div class="col-lg-6 col-xl-6">
                         <label for="nom">First Name</label>
                         <input type="text" id="nom" name="nom" class="form-control">
                     </div>
-                    <div class="col">
+                    <div class="col-lg-6 col-xl-6">
                         <label for="prenom">Last Name</label>
                         <input type="text" id="prenom" name="prenom" class="form-control">
                     </div>
                 </div>
 
                 <div class="form-row">
-                    <div class="col">
+                    <div class="col-lg-6 col-xl-6">
                         <label for="email">Email</label>
                         <input type="text" id="email" name="email" class="form-control">
                     </div>
-                    <div class="col">
+                    <div class="col-lg-6 col-xl-6">
                         <label for="telephone">Phone</label>
                         <input type="text" id="telephone" name="telephone" class="form-control">
                     </div>
