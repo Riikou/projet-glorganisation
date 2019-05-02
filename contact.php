@@ -27,7 +27,34 @@
     <body>
         <?php
             $position = "relative";
-            include("include/header.php"); 
+            include("include/header.php");
+            include("include/bdd.php");
+        
+            $champsNonRemplis = false;
+            if(!empty($_POST["nom"]) && !empty($_POST["prenom"]) && !empty($_POST["email"]) && !empty($_POST["telephone"]) && !empty($_POST["objet"]) && !empty($_POST["message"])) {
+                //Tout est ok
+                //Envoi à la base
+                
+                $query = $con -> prepare("INSERT INTO messages(nom_message, prenom_message, email_message, telephone_message, objet_message, contenu_message) VALUES(:nom, :prenom, :email, :telephone, :objet, :contenu)");
+                $query -> bindParam(":nom",$nom);
+                $query -> bindParam(":prenom",$prenom);
+                $query -> bindParam(":email",$email);
+                $query -> bindParam(":telephone",$telephone);
+                $query -> bindParam(":objet",$objet);
+                $query -> bindParam(":contenu",$message);
+                
+                $nom = $_POST["nom"];
+                $prenom = $_POST["prenom"];
+                $email = $_POST["email"];
+                $telephone = $_POST["telephone"];
+                $objet = $_POST["objet"];
+                $message = $_POST["message"];
+                
+                $query -> execute();
+                
+            } elseif (isset($_POST["submit"])) {
+                $champsNonRemplis = true;
+            }
         ?>
         <div class="container-fluid" id="main">
             <h2>Contact</h2>
@@ -67,7 +94,17 @@
 
                 <input type="submit" class="btn btn-outline-danger btn-block" name="submit" value="Send">
             </form>
+        
+        <?php 
+            if ($champsNonRemplis === true) {
+                echo "<span style='color: red; font-size: 20px; text-align: center; margin: 0 auto;'>Tous les champs doivent être remplis.</span>";
+            } elseif (isset($_POST["submit"])) {
+                echo "<span style='color: red; font-size: 20px; text-align: center; margin: 0 auto;'>Merci de votre message.</span>";
+            }
+        ?>
         </div>
-        <?php include("include/footer.php"); ?>
+        <?php
+            include("include/footer.php"); 
+        ?>
     </body>
 </html>
