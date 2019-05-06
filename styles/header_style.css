@@ -44,3 +44,25 @@ header ul li
 .brand div h1 strong {
     display: block;
 }
+
+@media screen and (max-width: 768px)
+{
+    #text-header
+    {
+        float: none;
+        margin: 0 auto;
+    }
+    
+    #text-header h1
+    {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 576px)
+{
+    #text-header
+    {
+        display: none;
+    }
+}

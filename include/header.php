@@ -14,7 +14,7 @@
                 <div>
                     <img src="images/logo_GL.png">
                 </div>
-                <div>
+                <div id='text-header'>
                     <h1>INTERNATIONAL AGENCY <strong class="red">FOR LIVE SHOWS</strong></h1>
                 </div>
             </div>
