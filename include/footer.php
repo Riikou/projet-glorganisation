@@ -7,9 +7,9 @@
         <footer>
             <a href="#">NEWSLETTER</a>
             <p>|</p>
-            <a href="#">TERMS &amp; CONDITIONS</a>
+            <a href="mentionslegales.php">TERMS &amp; CONDITIONS</a>
             <p>|</p>
-            <p>POWERED BY <a href="#">NODEVO</a></p>
+            <p>POWERED BY <a href="http://www.nodevo.com" target='_blank'>NODEVO</a></p>
         </footer>
     </body>
 </html>
