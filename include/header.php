@@ -20,11 +20,11 @@
             </div>
             <div class="nav">
                 <ul>
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="index.php">HOME</a></li>
                     <li><p>|</p></li>
                     <li><a href="#">ABOUT</a></li>
                     <li><p>|</p></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
                 </ul>
             </div>    
         </header>
