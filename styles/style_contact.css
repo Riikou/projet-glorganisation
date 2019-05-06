@@ -4,14 +4,9 @@ body {
     font-family: 'ZCOOL XiaoWei', sans-serif;
 }
 
-header
-{
-    
-}
-
 #main {
     background: linear-gradient(to top, black 60%, rgb(255,0,0,0));
-    margin: 50px 0px 0px 0px;
+    margin: 75px 0px 0px 0px;
     font-size: 20px;
 }
 
