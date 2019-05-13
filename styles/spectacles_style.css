@@ -1,0 +1,91 @@
+*
+{
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+    color: #fff;
+}
+
+.white-divider
+{
+    width: 80px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+#main
+{
+    background: linear-gradient(to top, black 60%, rgb(255,0,0,0));
+    margin: 200px 0px 0px 0px;
+    color: #fff;
+}
+
+.introduction
+{
+    background: rgba(0,0,0,.7);
+    padding-bottom: 20px;
+}
+
+.introduction .container-fluid
+{
+    background: rgb(0,0,0);
+    padding: 10px;
+}
+
+.introduction h1
+{
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.introduction p
+{
+    font-size: 20px;
+}
+
+.introduction .container-fluid .row img
+{
+    height: 400px;
+}
+
+.baniere
+{
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 40px;
+}
+
+.baniere img
+{
+    width: 100%;
+}
+
+.contenu h2
+{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+.contenu p
+{
+    font-size: 18px;
+    color: #888;
+    margin: 20px 0px;
+}
+
+footer
+{
+    margin: 0px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px)
+{
+    .introduction .container-fluid .row img
+    {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
