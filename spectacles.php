@@ -34,7 +34,7 @@
             $query -> execute();
             $main = $query -> fetch();
 
-            $query = $con -> prepare("SELECT * FROM photos WHERE id_liste_photos = (SELECT id_liste_photos FROM evenements WHERE id_evenement = :id)");
+            $query = $con -> prepare("SELECT * FROM photos WHERE id_liste_photos = :id");
             $query -> bindParam(":id", $cle);
             $cle = 1;
 
