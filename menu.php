@@ -87,36 +87,28 @@
                 <?php
                     if(isset($_POST["id_E"]))
                     {
-                        $query = $con -> prepare("DELETE FROM sous_titre WHERE id_evenements = :id");
+                        $query = $con -> prepare("DELETE FROM sous_titres WHERE id_evenement = :id");
                         $query -> bindParam(":id", $id);
                 
-                        $id = $_POST["id"];
+                        $id = $_POST["id_E"];
                         $query -> execute();
                         
-                        $query = $con -> prepare("DELETE FROM contenus WHERE id_evenements = :id");
+                        $query = $con -> prepare("DELETE FROM contenus WHERE id_evenement = :id");
                         $query -> bindParam(":id", $id);
                 
-                        $id = $_POST["id"];
+                        $id = $_POST["id_E"];
                         $query -> execute();
-                        
-                        $query = $con -> prepare("SELECT id_liste_photos FROM evenements WHERE id_evenements = :id");
-                        $query -> bindParam(":id", $id);
-                
-                        $id = $_POST["id"];
-                        $query -> execute();
-                        
-                        $valeur = $query -> fetch();
                         
                         $query = $con -> prepare("DELETE FROM photos WHERE id_liste_photos = :id");
                         $query -> bindParam(":id", $id);
                 
-                        $id = $valeur["id_liste_photos"];
+                        $id = $_POST["id_E"];
                         $query -> execute();
                         
-                        $query = $con -> prepare("DELETE FROM evenements WHERE id_evenements = :id");
+                        $query = $con -> prepare("DELETE FROM evenements WHERE id_evenement = :id");
                         $query -> bindParam(":id", $id);
                 
-                        $id = $_POST["id"];
+                        $id = $_POST["id_E"];
                         $query -> execute();
                         
                         header("Refresh: 0;url=menu.php");
