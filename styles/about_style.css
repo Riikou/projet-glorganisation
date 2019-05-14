@@ -1,0 +1,80 @@
+body {
+    background: url("../images/bg-about.jpg") no-repeat center fixed;
+    background-position: top;
+    color: #fff;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+}
+
+#main {
+    background: #000;
+    margin: 500px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.main-content
+{
+    color: #888;
+}
+
+footer
+{
+    padding: 20px;
+}
+
+.heading
+{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.heading h1
+{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.heading h2
+{
+    font-size: 40px;
+    font-family:serif;    
+}
+
+.blockrouge
+{
+    background: #510001;
+    padding: 60px;
+}
+
+.blockrouge h3
+{
+    font-size: 40px;
+}
+
+.left
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.liste
+{
+    padding: 0px 50px;;
+}
+.write
+{
+    font-size: 25px;
+}
+
+.write div
+{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 991px)
+{
+    .write div
+    {
+        padding: 50px;
+    }
+}
